@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+#intro{
+    height: 100vh;
+    background-image: url(../image/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#intro #nav{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+#intro li{
+    display: inline;
+}
