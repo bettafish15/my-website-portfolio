@@ -15,24 +15,332 @@
 
 <body>
     <section id="intro">
-        <nav id="nav">
-            <ul>
-                <li><a href=""><span>About me</span></a></li>
-                <li><a href=""><span>Skill</span></a></li>
-                <li><a href=""><span>Experience</span></a></li>
-                <li><a href=""><span>Education</span></a></li>
-                <li><a href=""><span>Portfolio</span></a></li>
-                <li><a href=""><span>Contact</span></a></li>
-            </ul>
-        </nav>
+        <div id="filter">
+            <div class="nav-wrapper">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#about"><span>About me</span></a></li>
+                        <li><a href="#skill"><span>Skill</span></a></li>
+                        <li><a href="#experience"><span>Experience</span></a></li>
+                        <li><a href="#portfolio"><span>Portfolio</span></a></li>
+                        <li><a href="#contact"><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav id="site-navigation" role="navigation">
+                <div class="navigation-header">
+                    <a href="index.html" class="logo"><img src="images/site-logo.png" alt="Signature"
+                            class="site-logo"></a>
+                    <button class="menu-switch">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <!-- /.navigation-header -->
+                <ul id="nav-navigation">
+                    <li class="item active"><a href="#intro" class="fa fa-home">Home</a></li>
+                    <li class="item"><a href="#about" class="fa fa-user">About</a></li>
+                    <li class="item"><a href="#skill" class="fa fa-signal">Skills</a></li>
+                    <li class="item"><a href="#experience" class="fa fa-bar-chart-o">Experiences</a></li>
+                    <li class="item"><a href="#portfolio" class="fa fa-book">Portfolio</a></li>
+                    <li class="item"><a href="#contact" class="fa fa-address-card">Contact</a></li>
+                </ul>
+                <!-- /.navigation -->
+            </nav>
+            <div id="site-owner-container">
+                <h1>Nguyen Hoang Hung</h1>
+                <h3>A Full Stack Developer</h3>
+            </div>
+        </div>
     </section>
-    <section id="about me"></section>
-    <section id="skill"></section>
-    <section id="experience"></section>
-    <section id="education"></section>
-    <section id="portfolio"></section>
-    <section id="contact"></section>
 
+
+
+    <section id="about">
+        <div class="section-heading">
+            <h2 class="section-title">About me</h2>
+        </div>
+        <div class="container">
+            <div class="col-1-3" style="text-align: center;">
+                <div class="section-box">
+                    <img id="my-picture" src="assets/my-picture.jpg" alt="picture-of-me">
+                </div>
+            </div>
+            <div class="col-2-3">
+                <div class="section-box">
+                    <h4 style="margin-bottom: 30px">HI, I'M Nguyen Hoang Hung!</h4>
+                    <p>
+                        I like building awesome software. I can build
+                        websites, browser plugins, scripts, tools, corporate
+                        software and even games! If you are interested, you can view some of my favorite projects in my
+                        <a href="#portfolio">portfolio</a> down below.
+                    </p>
+                    <p>
+                        Need something built or simply want to have chat? Reach out to me on social media or send me an
+                        <a href="#contact">email</a>.
+
+                    </p>
+                    <ul id="social-profiles">
+                        <li><a href="https://www.linkedin.com/in/h%C6%B0ng-nguy%E1%BB%85n-ho%C3%A0ng-5b7609168/"
+                                class="fa-linkedin"><span>LinkedIn</span></a></li>
+                        <!--LinkedIn-->
+                        <li><a href="https://www.facebook.com/hung.nguyenhoang.77736"
+                                class="fa-facebook"><span>Facebook</span></a></li>
+                        <!--Facebook-->
+                        <li><a href="https://www.instagram.com/johncage1129/"
+                                class="fa-instagram"><span>Instagram</span></a></li>
+                        <!--Instagram-->
+                        <li><a href="https://twitter.com/Bettafish15" class="fa-twitter"><span>Twitter</span></a></li>
+                        <!--Twitter-->
+                        <li><a href="https://stackoverflow.com/users/11382022/nguy%E1%BB%85n-ho%C3%A0ng-h%C6%B0ng"
+                                class="fa-stack-overflow"><span>Stack Overflow</span></a></li>
+                        <!--Stack Overflow-->
+                        <li><a href="https://github.com/bettafish15" class="fa-github"><span>Github</span></a></li>
+                        <!--Github-->
+                    </ul>
+                    <a href="assets/nguyen-hoang-hung.pdf" class="fa fa-download btn">My CV</a>
+                </div>
+            </div>
+            <div class="col-1-3">
+                <div class="section-box">
+                    <h4>Contact info</h4>
+                    <ul id="interest">
+                        <li class="fa fa-map-marker">Hà Nội, Việt Nam</li>
+                        <li class="fa fa-phone">+84 984961669</li>
+                        <li class="fa fa-envelope"><a href="bettafish6@gmail.com">Bettafish6@gmail.com</a></li>
+                        <li class="fa fa-globe"><a href="cv.nguyenhoanghung.com">cv.nguyenhoanghung.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="skill">
+        <div class="section-heading">
+            <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="container">
+            <div class="col-1-3">
+                <div class="section-box">
+                    <h2 id="box-title">Programming languages</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>HTML, CSS</li>
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>C#.NET, C, C++</li>
+                        <li>PHP</li>
+                    </ul>
+
+                    <h2 id="box-title">Frameworks & Platforms</h2>
+                    <ul>
+                        <li>Spring boot</li>
+                        <li>Django, Flask</li>
+                        <li>Laravel, magento</li>
+                        <li>ReactJS / AngularJS / NodeJS</li>
+                        <li>jQuery / Twitter Bootstrap / Materialize CSS</li>
+                        <li>v.v....</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-3">
+                <div class="section-box">
+                    <h2 id="box-title">Database</h2>
+                    <ul>
+                        <li>Microsoft SQL, MySQL, PostgreSQL</li>
+                        <li>MariaDB</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    <h2 id="box-title">Version control</h2>
+                    <ul>
+                        <li>SVN</li>
+                        <li>Git</li>
+                    </ul>
+                    <h2 id="box-title">IDE</h2>
+                    <ul>
+                        <li>Eclipse & Netbeans</li>
+                        <li>Visual Studio Code</li>
+                        <li>Pycharm</li>
+                        <li>Android Studio</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-1-3">
+                <div class="section-box">
+                    <h2 id="box-title">Foreign language</h2>
+                    <ul>
+                        <li>English</li>
+                    </ul>
+                    <h2 id="box-title">Knowledge</h2>
+                    <ul>
+                        <li>OOP, Design Pattern, SOLID principles, Dependency Injection, ...</li>
+                        <li>Agile and Scrum process</li>
+                        <li>Software design, database design, RestfulAPI, ...</li>
+                        <li>Time management, presentation and teamwork skills ...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="experience">
+        <div class="section-heading">
+            <h2 class="section-title">Experiences</h2>
+        </div>
+        <div class="container">
+            <!--item container-->
+            <div class="item-container">
+                <div class="designation">
+                    <h3>Junior Developer</h3>
+                    <p>FPT Software</p>
+                </div>
+                <div class="ui-item light-coral">
+                    <p>
+                        03/2019
+                        <br /> -<br />
+                        now
+                    </p>
+                </div>
+                <div>
+                    <ul class="comments">
+                        <li><strong>Project</strong>:iLancaster</li>
+                        <li><strong>Project Description</strong>: A free mobile app delivering Lancaster University
+                            services, resources,
+                            and information - at your fingertips - whenever you want them, from wherever you are!</li>
+                        <li>Team Size: 9</li>
+                        <li><strong>Responsiblities</strong>: Meeting with customers and teammates to get clear
+                            requirement. Develop the
+                            frameworks and modules of the system.</li>
+                        <li><strong>Accomplishments</strong>: Learned new Microsoft technologies and frameworks.
+                            Improved teamwork and
+                            communication skills.</li>
+                        <li><strong>Technologies</strong>: Front-end: ReactJS + Redux, Webpack. Back-end ASP.NET MVC5,
+                            Entity Framework.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--item container-->
+            <div class="item-container">
+                <div class="designation">
+                    <h3>Junior Developer</h3>
+                    <p>FPT Software</p>
+                </div>
+                <div class="ui-item light-purple">
+                    <p>
+                        03/2019
+                        <br /> -<br />
+                        now
+                    </p>
+                </div>
+                <div>
+                    <ul class="comments">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <div class="section-heading">
+            <h2 class="section-title">Some of my favorite projects</h2>
+        </div>
+        <div class="container">
+            <!--item container-->
+            <div class="item-container">
+                <div class="designation">
+                    <h3>Junior Developer</h3>
+                    <p>FPT Software</p>
+                </div>
+                <div class="ui-item light-blue">
+                    <p>
+                        03/2019
+                        <br /> -<br />
+                        now
+                    </p>
+                </div>
+                <div>
+                    <ul class="comments">
+                        <li><strong>Project</strong>:iLancaster</li>
+                        <li><strong>Project Description</strong>: A free mobile app delivering Lancaster University
+                            services, resources,
+                            and information - at your fingertips - whenever you want them, from wherever you are!</li>
+                        <li>Team Size: 9</li>
+                        <li><strong>Responsiblities</strong>: Meeting with customers and teammates to get clear
+                            requirement. Develop the
+                            frameworks and modules of the system.</li>
+                        <li><strong>Accomplishments</strong>: Learned new Microsoft technologies and frameworks.
+                            Improved teamwork and
+                            communication skills.</li>
+                        <li><strong>Technologies</strong>: Front-end: ReactJS + Redux, Webpack. Back-end ASP.NET MVC5,
+                            Entity Framework.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--item container-->
+            <div class="item-container">
+                <div class="designation">
+                    <h3>Junior Developer</h3>
+                    <p>FPT Software</p>
+                </div>
+                <div class="ui-item light-green">
+                    <p>
+                        03/2019
+                        <br /> -<br />
+                        now
+                    </p>
+                </div>
+                <div>
+                    <ul class="comments">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-heading">
+            <h2 class="section-title">Let's get in touch</h2>
+        </div>
+        <div class="center-line"></div>
+        <p>Need anything built, want to work together or simply want to have a chat?
+            Drop me an e-mail at bettafish6@gmail.com or simply fill out the form below and I will reply to you
+            soon!
+        </p>
+        <form action="" id="contact-form">
+            <div id="contact-div">
+                <input type="text" name="name" id="name" value placeholder="Name">
+                <input type="text" name="email" id="email" value="" placeholder="E-mail address">
+                <textarea name="message" id="message" rows="4" placeholder="Your message"></textarea>
+                <button id="submit" type="submit" form="contact-form" value="Submit">Send</button>
+            </div>
+        </form>
+
+    </section>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/dist.js"></script>
 </body>
 
 </html>
